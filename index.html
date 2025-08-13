@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Dark mode to-do</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
+   <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+    <div class="todo-app">
+        <h2>To-Do List</h2>
+        <div class="row">
+            <input type="text" name="" id="todo-input" placeholder="Add your task">
+            <button onclick="addTask()" id="add-task-btn">Add</button>
+        </div>
+
+        <div class="filters">
+            <button id="all-tasks" class="active">All</button>
+            <button id="active-tasks">Pending</button>
+            <button id="completed-tasks">Completed</button>
+        </div>
+
+        <ul id="todo-list">
+            <li></li>
+        </ul>
+
+        <p id="no-tasks-message" class="no-tasks-message" style="display: none;"></p>
+
+
+        <div class="action-buttons">
+            <button id="complete-all-btn">Complete All</button>
+            <button id="delete-all-btn">Delete All</button>
+        </div>
+        <p class="footer-text">Made with ❤️ by <a href="https://github.com/exceptional007">Akshhat</a></p>
+    </div>
+
+   <script src="./script.js"></script>
+</body>
+</html>
