@@ -18,12 +18,10 @@ A beautiful, responsive To-Do List web application built with pure vanilla JavaS
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/exceptional007/JS-Learning.git
+   git clone https://github.com/exceptional007/To-Do-App.git
    ```
 2. **Navigate to the To-Do app folder**
-   ```sh
-   cd JS-Learning/07_To-Do/src
-   ```
+   
 3. **Open `index.html` in your browser**
 
 ## 📁 Project Structure
